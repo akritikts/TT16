@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#404040"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="6dp"
+        android:layout_height="200dp"
+        android:layout_alignParentTop="true"
+
+        android:layout_toLeftOf="@+id/view"
+        android:layout_toStartOf="@+id/view"
+        android:background="#66c2ff" />
+
+    <TextView
+        android:id="@+id/timeExact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="40dp"
+
+        android:background="#ffffff"
+        android:padding="5dp"
+        android:text="10\nAM"
+        android:textSize="20sp" />
+
+    <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_margin="15dp"
+        android:layout_toRightOf="@id/timeExact"
+        card_view:cardCornerRadius="6dp"
+        card_view:cardElevation="8dp"
+        card_view:cardUseCompatPadding="true">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:src="@drawable/event_item" />
+
+        <TextView
+            android:id="@+id/eventName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:layout_margin="10dp"
+            android:text="Xyz"
+            android:textColor="#ffffff"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/timeDuration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/eventName"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="10dp"
+            android:text="10:00 - 10:00 AM "
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+
+            />
+
+        <TextView
+            android:id="@+id/eventLocation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/eventName"
+            android:layout_gravity="bottom"
+            android:layout_margin="10dp"
+            android:text="Main Block"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </android.support.v7.widget.CardView>
+
+
+</RelativeLayout>
+

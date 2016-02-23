@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<group android:checkableBehavior="single">
+    <item
+        android:id="@+id/navigation_item_news_feed"
+        android:checked="true"
+        android:icon="@drawable/icon"
+        android:title="News Feed" />
+    <item
+        android:id="@+id/navigation_item_events"
+        android:icon="@drawable/icon"
+        android:title="Events" />
+    <item
+        android:id="@+id/navigation_item_schedule"
+        android:icon="@drawable/icon"
+        android:title="Schedule" />
+    <item
+        android:id="@+id/navigation_item_register"
+        android:icon="@drawable/icon"
+        android:title="Register" />
+    <item
+        android:id="@+id/navigation_item_rules"
+        android:icon="@drawable/icon"
+        android:title="Rules" />
+    <item
+        android:id="@+id/navigation_item_contact_us"
+        android:icon="@drawable/icon"
+        android:title="Contact Us" />
+    <item
+        android:id="@+id/navigation_item_querry_us"
+        android:icon="@drawable/icon"
+        android:title="Querry Us" />
+</group>
+</menu>

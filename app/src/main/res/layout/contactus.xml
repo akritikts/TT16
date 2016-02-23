@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <com.gc.materialdesign.views.ButtonRectangle
+                android:id="@+id/thumb_button_1"
+                android:layout_width="match_parent"
+                android:layout_height="175dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:gravity="center"
+                android:paddingBottom="35dp"
+                android:paddingTop="35dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/img1"
+                android:text="Organisers" />
+
+            <com.gc.materialdesign.views.ButtonRectangle
+                android:id="@+id/thumb_button_2"
+                android:layout_width="match_parent"
+                android:layout_height="175dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:gravity="center"
+                android:paddingBottom="35dp"
+                android:paddingTop="35dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/img1"
+                android:text="Credits" />
+
+
+        </LinearLayout>
+
+
+
+    </RelativeLayout>
+</RelativeLayout>

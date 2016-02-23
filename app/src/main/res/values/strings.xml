@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Application name -->
+    <string name="app_name">TechTrishna16</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <!-- Drawer Icons -->
+    <array name="drawer_icons">
+        <item>@drawable/icon</item>
+        <item>@drawable/icon</item>
+        <item>@drawable/icon</item>
+        <item>@drawable/icon</item>
+        <item>@drawable/icon</item>
+        <item>@drawable/icon</item>
+        <item>@drawable/icon</item>
+    </array>
+    <!-- Item list for drawer -->
+    <string-array name="drawer_items">
+        <item>News Feed</item>
+        <item>Events</item>
+        <item>Schedule</item>
+        <item>Register</item>
+        <item>Rules</item>
+        <item>Contact Us</item>
+        <item>Querry Us</item>
+    </string-array>
+    <!-- List of branches for Student Registration -->
+    <string-array name="register_branch_list">
+        <item>Computer Science and Technology</item>
+        <item>Information Technology</item>
+        <item>Electronics and Communication</item>
+        <item>Electrical and Electronics</item>
+        <item>Electronics and Instrumentation</item>
+        <item>Mechanical Enginering</item>
+        <item>Civil Engineering</item>
+    </string-array>
+    <!-- List of years for Student registration -->
+    <string-array name="register_year_list">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <!-- Rules for Tech-Trishna -->
+    <string name="accomodation">1. All participants requiring accommodation and mess facility will be provided lodging (separate for boys and girls) in a shared hostel accommodation \n2.  Mess facility would include breakfast, lunch, evening tea and snack (on 13th,14th and 15th March,2015) and dinner (only on 13th and 14th march,2015).\n3. Mess facility will be available only during the official mess timings of the hostel.\n\n4.Apart from the mess provided, college canteen will be kept open throughout the duration of the fest for the participants.\n\n5.The charges for overnight hostel accommodation will be Rs.200 per student per day (inclusive of meals).\n\n6.The accommodation for the participants is limited,it would be provided on first come first serve basis.</string>
+    <string name="registration">1. The participants should be an undergraduate or a post graduate. There are no restrictions on team formation. The members of a team need not necessarily be of same college.\n\n2. Interested students are advised to register online preferably before 14th March on Techfest website.\n\n3. An online Registration Slip will be generated at the time of online registration.\n\n4. Once the participant enters the campus, he/she has to confirm his/her registration at the registration desk two hours before a particular event. Confirmation at the registration desk is compulsory to compete for any event.\n\n5. Each participant must carry an institutional photo identity card which he/she should present at the time of confirmation at the registration desk.\n\n6. Registration fees for the outside students is Rs 100/- per student.\n\n7. All students of AKGEC are required to register themselve before 13th March and get their stamped techtrishna registration slip from SI LAB (CS-IT Block 3rd floor) on 12th or 13th March 2015.\n\n8. The hostel accommodation fees (Rs. 200/- per day per student) will be charged at the time of registration.</string>
+    <string name="transportation">1. The institutes transport or pick up facility will be available at the Ghaziabad railway station and bus stand from 6:00 am to 9:00pm on 13th and 14th March 2015. \n\n2. The transportation facility provided (from Ghaziabad railway station and old bus stand near Raj Nagar to the institute) will be free of cost.\n\n3. Prior information of the participants arrival (via email at techtrishna2015@gmail.com or phone at +918585980505 or at +919999736616) would be highly appreciated. </string>
+    <string name="miscellaneous">    1.Participants are required to maintain proper decorum and discipline throughout the fest, Any act of indiscipline or misconduct will lead to the cancellation of the candidature of the participant.\n
+    \n2.Smoking, drinking alcohol or chewing pan masala/guthka within the premises of the college is strictly prohibited.\n
+    \n3.Decision of the judges (senior faculty members) in various events will be final and no objection shall be entertained.\n
+    \n4.Students availing hostel accommodation should personally take care of their belongings.\n
+    \n5.Girl participants are advised to strictly follow the girl’s hostel timings.</string>
+
+</resources>
